@@ -1,0 +1,14 @@
+https://tech.marksblogg.com/petabytes-of-website-data-spark-emr.html -- getting data from CC with EMR
+https://www.firecrawl.dev/ -- converting sites to LLM ready data
+https://stackoverflow.com/questions/53150630/how-to-debug-the-apache-spark-when-it-stuck-at-the-certain-line
+
+Problems with executing at scale
+    FOLLOW THIS : https://stackoverflow.com/questions/23302184/running-pyspark-script-on-emr
+    need more cores
+    need more nodes
+    need to see the spark UI
+
+
+Embeddings / NLP:
+    tokenuzation leaderboards: https://huggingface.co/spaces/mteb/leaderboard
+    spacy documentation: https://spacy.io/usage/linguistic-features#named-entities
