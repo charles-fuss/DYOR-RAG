@@ -4,9 +4,13 @@ https://stackoverflow.com/questions/53150630/how-to-debug-the-apache-spark-when-
 
 Problems with executing at scale
     FOLLOW THIS : https://stackoverflow.com/questions/23302184/running-pyspark-script-on-emr
+    GOOGLE GUIDE TO PYSPARK: https://groups.google.com/g/common-crawl/c/yEP1Lt1_B4E/m/AWr7xktkBAAJ
     need more cores
     need more nodes
     need to see the spark UI
+
+todo:
+    parse only english files
 
 
 Embeddings / NLP:
