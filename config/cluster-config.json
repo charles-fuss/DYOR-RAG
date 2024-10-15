@@ -1,0 +1,28 @@
+[
+    {
+      "Classification": "spark",
+      "Properties": {
+        "maximizeResourceAllocation": "true"
+      }
+    },
+    {
+      "Classification": "spark-defaults",
+      "Properties": {
+        "spark.eventLog.enabled": "true",
+        "spark.eventLog.dir": "s3a://ai-crap/ETL-CC/emr-logs/spark-history/",
+        "spark.history.fs.recursive": "true"
+      }
+    },
+    {
+      "Classification": "spark-env",
+      "Configurations": [
+        {
+          "Classification": "export",
+          "Properties": {
+            "SPARK_HISTORY_OPTS": "-Dspark.history.fs.logDirectory=s3a://ai-crap/ETL-CC/emr-logs/spark-history/"
+          }
+        }
+      ]
+    }
+  ]
+  
